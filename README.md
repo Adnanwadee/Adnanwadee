@@ -18,7 +18,6 @@ My strongest technical direction is building AI systems that are accurate, inter
 I am currently deepening my practical work in **Agentic AI** — exploring tool-using LLM workflows, RAG-assisted reasoning chains, and structured decision-support agents.
  
 ---
- 
 ## Technical Stack
  
 ### Core AI & ML
@@ -26,32 +25,81 @@ I am currently deepening my practical work in **Agentic AI** — exploring tool-
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-003366?style=flat-square)
-![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-003366?style=flat-square&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat-square&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
  
-### Computer Vision
+### Computer Vision & CNNs
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+ 
 `RT-DETR` · `DINOv2` · `U-Net` · `Attention U-Net` · `Xception` · `MobileNetV2` · `DenseNet121` · `AlexNet`
+ 
+> **CNN Techniques:** Transfer Learning · Fine-tuning · Data Augmentation · Multi-class Classification · Semantic Segmentation · Object Detection
  
 ### NLP & Transformers
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-`DistilBERT` · `MiniLM` · `ELECTRA-small`  · `PubMedBERT`
+![PyTorch](https://img.shields.io/badge/Transformers-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+ 
+`DistilBERT` · `MiniLM` · `ELECTRA-small` · `PubMedBERT`
+ 
+> **NLP Techniques:** Fine-tuning · Token-level Analysis · Label Leakage Prevention · Large-scale Text Classification (~2.47M samples)
+ 
+### LLMs & Agentic AI
+![Anthropic](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
+ 
+`Prompt Engineering` · `Structured Outputs` · `Tool Use / Function Calling` · `LLM-assisted Report Synthesis` · `Agentic Workflows` · `Decision-Support Agents` · `Multi-step Pipelines`
+ 
+### RAG & Knowledge Systems
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logoColor=white)
+ 
+`BM25` · `Vector Embeddings` · `Semantic Search` · `Ranked Retrieval` · `Domain Knowledge Bases` · `Hybrid Retrieval (Dense + Sparse)` · `LLM-assisted Synthesis`
  
 ### Multimodal & Medical AI
 `BioMedCLIP` · `OpenCLIP` · `PubMedBERT` · `Vision-Language Embeddings` · `Medical Image Classification` · `U-Net Segmentation`
  
-### RAG & Knowledge Systems
-`FAISS` · `BM25` · `Embeddings` · `Semantic Search` · `Ranked Retrieval` · `Domain Knowledge Bases` · `LLM-assisted Synthesis`
- 
 ### Explainable AI
-`SHAP` · `LIME` · `Grad-CAM` · `Attention Maps` · `Token-level Explanations` · `Feature Attribution`
+![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat-square&logoColor=white)
+![GradCAM](https://img.shields.io/badge/Grad--CAM-FF9500?style=flat-square&logoColor=white)
+ 
+`LIME` · `Attention Maps` · `Token-level Explanations` · `Feature Attribution` · `Safety-critical Visual Inspection`
+ 
+### ML & Optimization Algorithms
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white)
+ 
+`Gradient Descent` · `SGD` · `Newton's Method` · `Genetic Algorithm (GA)` · `Particle Swarm Optimization (PSO)` · `Simulated Annealing`
+ 
+> **Applied to:** Feature Selection · Hyperparameter Tuning · Wrapper Methods · Convergence Analysis
+ 
+### Data Pipeline & Processing
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+ 
+`Data Cleaning & Preprocessing` · `Train/Val/Test Splitting` · `Class Imbalance Handling (SMOTE, Weighting)` · `Feature Engineering` · `Data Augmentation` · `Large-scale Batch Processing` · `Domain-specific Preprocessing (Medical, NLP, CV)`
+ 
+### Data Analysis & Visualization
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+ 
+`Exploratory Data Analysis (EDA)` · `Performance Benchmarking` · `Confusion Matrices` · `ROC/AUC Curves` · `Model Comparison Reporting`
+ 
+### AI System Design & Planning
+`End-to-end AI Pipeline Architecture` · `Modular Backend Design` · `Deterministic + ML Hybrid Systems` · `Risk Assessment Logic` · `Structured Decision Engines` · `Safety-first System Design` · `Deployment-oriented Workflows`
  
 ### Backend & Deployment
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=flat-square)
-`Pydantic` · `REST APIs` · `Git/GitHub` · `Linux`
+![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=flat-square&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+ 
+`Pydantic` · `REST APIs` · `Structured JSON Outputs` · `Model Serving` · `API Documentation`
  
 ---
  
