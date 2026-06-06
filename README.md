@@ -108,7 +108,7 @@ I am currently deepening my practical work in **Agentic AI** — exploring tool-
 ### 🚁 Smart Skies — Hybrid AI System for UAV Flight Risk Assessment
 > `FastAPI` `LightGBM` `SHAP` `FAISS` `RAG` `Docker` `Pydantic`
  
-My most complete AI engineering project. A production-style UAV pre-flight risk assessment backend that outputs structured **GO / CAUTION / NO-GO** decisions and opreational report involve 11 section .
+My most complete AI engineering project. A production-style UAV pre-flight risk assessment backend that outputs structured **GO / CAUTION / NO-GO** decisions and a structured 11-section operational report covering ML risk, SHAP explanations, retrieved evidence, agent analysis, decision rationale, and recommended actions.
  
 **What makes it different:** It does not rely on a single model. It combines deterministic safety validation, ML risk prediction, SHAP explainability, FAISS-based evidence retrieval, and a deterministic Decision Engine — with an LLM used only for report synthesis, not for decision-making.
  
