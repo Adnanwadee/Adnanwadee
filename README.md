@@ -1,5 +1,5 @@
 # Adnan Wadee Abdullah
-### Applied AI Engineer — Computer Vision · NLP · RAG Systems · Explainable AI
+### Applied AI Engineer — Computer Vision · NLP Transformers · LLM/RAG Systems · Explainable & Agent-Assisted AI
 
 > I build complete AI systems — not just models. My work connects data pipelines, model training, explainability, retrieval, and backend APIs into structured, deployment-oriented workflows.
 
@@ -36,7 +36,10 @@ I am currently deepening my practical work in **Agentic AI** — exploring tool-
 
 ### NLP & Transformers
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-`DistilBERT` · `MiniLM` · `ELECTRA-small` · `BioMedCLIP` · `PubMedBERT`
+`DistilBERT` · `MiniLM` · `ELECTRA-small`  · `PubMedBERT`
+
+### Multimodal & Medical AI
+`BioMedCLIP` · `OpenCLIP` · `PubMedBERT` · `Vision-Language Embeddings` · `Medical Image Classification` · `U-Net Segmentation`
 
 ### RAG & Knowledge Systems
 `FAISS` · `BM25` · `Embeddings` · `Semantic Search` · `Ranked Retrieval` · `Domain Knowledge Bases` · `LLM-assisted Synthesis`
@@ -57,7 +60,7 @@ I am currently deepening my practical work in **Agentic AI** — exploring tool-
 ### 🚁 Smart Skies — Hybrid AI System for UAV Flight Risk Assessment
 > `FastAPI` `LightGBM` `SHAP` `FAISS` `RAG` `Docker` `Pydantic`
 
-My most complete AI engineering project. A production-style UAV pre-flight risk assessment backend that outputs structured **GO / CAUTION / NO-GO** decisions.
+My most complete AI engineering project. A production-style UAV pre-flight risk assessment backend that outputs structured **GO / CAUTION / NO-GO** decisions and opreational report involve 11 section .
 
 **What makes it different:** It does not rely on a single model. It combines deterministic safety validation, ML risk prediction, SHAP explainability, FAISS-based evidence retrieval, and a deterministic Decision Engine — with an LLM used only for report synthesis, not for decision-making.
 
@@ -65,6 +68,7 @@ My most complete AI engineering project. A production-style UAV pre-flight risk 
 Raw UAV Profile → Hard-Veto Safety Layer → ML Risk Prediction
 → SHAP Attribution → RAG Evidence Retrieval → Decision Engine
 → LLM Report Synthesis → Structured GO/CAUTION/NO-GO Report
+
 ```
 
 ---
@@ -135,6 +139,10 @@ Implemented and benchmarked **6 optimization algorithms** from scratch — GD, S
 ### + 4 More Projects
 `Driver Drowsiness Detection` · `Underwater Image Enhancement` · `Financial Fraud Detection` · `Facial Emotion Recognition @ ICICS 2025`
 
+- **Driver Drowsiness Detection:** AlexNet transfer learning with ~99%+ validation/test accuracy and Grad-CAM/LIME explanations.
+- **Underwater Image Enhancement:** Attention U-Net with SSIM up to 0.7892 and Delta-E down to 0.02.
+- **Financial Fraud Detection:** XGBoost achieved 99.4% accuracy on an imbalanced transaction dataset.
+- **Facial Emotion Recognition:** ICICS 2025 research using Xception transfer learning; six-class FER model achieved 68.3% accuracy.
 ---
 
 ## Research & Activities
